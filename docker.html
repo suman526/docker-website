@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="web.js"></script>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <!-- background image -->
+<style>
+    body {
+      background-image: url('https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  background-size: cover;
+    }
+    </style>
+    <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Docker Webpage</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<!--  **********************************       NAVBAR START         *******************************         -->
+<div class="navbar">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">AWS</a>
+        <a href="#">HADOOP</a>
+        <a href="#">DOCKER</a>
+        <a href="#">TERRAFORM</a>
+        <a href="#">KUBERNETES</a>
+        <a href="#">LINUX</a>
+        <a href="#">PYTHON</a>
+
+      </div>
+      <span style="font: size 25px;cursor:pointer" onclick="openNav()">&#9776; Tools</span>
+      
+      
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="https://suman15.medium.com/"><i class="fa fa-fw fa-search"></i> Blog</a>
+  <a href="https://docs.docker.com/get-started/overview/"><i class="fa fa-book"></i>  Documentation</a>
+  
+  <input type="text" placeholder="Search here">
+  
+</div>
+<!--  **********************************      NAVBAR END         *******************************         -->  
+<body>
+<h1 style="color: white;">DOCKER TERMINAL</h1>
+<div>
+    <div>
+        <h3 align="center" >
+            <p style="color: white;">
+            [root@localhost ~]#  
+            <input id="input" required="True" type="text" placeholder="Enter your command"/>
+            <button class="button" onclick="lw();">RUN</button>
+            </p>
+        </h3>
+    </div>
+    <div class="scroll" style="overflow:scroll,height=400px" id="outputbox">
+    <pre>
+         
+
+                <div style="color: white;" id="d1" align="center" >HERE IS YOUR OUTPUT.............</div>
+         
+    </pre>
+    </div>
+</div>
+
+<!--  **********************************       GUI         *******************************         -->
+<section>
+<div>
+  <h1 class="terminal" style="color: white;">DOCKER COMMANDS MANUAL</h1>
+</div>
+<div>
+  <!--first card-->
+  <div class="row">
+    <div class="column" style="margin: 80px; height: 100px" >
+      <div class="card" id="card1">
+        <h3 style="color: rgb(0, 0, 0);">BASIC DOCKER COMMANDS</h3>
+        <pre>
+          <b>docker run</b>–   Runs a command in a new container.
+          <b>docker start</b>– Starts one or more stopped containers   
+          <b>docker stop </b>– Stops one or more running containers
+          <b>docker build</b>– Builds an image form a Docker file
+          <b>docker pull </b>– Pulls an image or a repository from a registry
+          <b>docker push </b>– Pushes an image or a repository to a registry
+          <b>docker export</b>– Exports a container’s filesystem as a tar archive
+          <b>docker exec  </b>– Runs a command in a run-time container
+          <b>docker search</b>– Searches the Docker Hub for images
+          <b>docker attach</b>– Attaches to a running container
+          <b>docker commit</b>– Creates a new image from a container’s changes
+        </pre>
+      </div>
+    </div>
+    <!--second card-->
+    <div class="column" id="card2" style="margin: 80px">
+      <div class="card">
+        <h3 style="color: black;">TO KNOW MORE ABOUT DOCKER</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1f5BZ7lTjiQJcm2WqqzXos6rUmgvewi39xQ&usqp=CAU"   width="15%" class="w3-circle">
+        
+         <a href="https://google.com" class="button1">VISIT HERE</a>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!--  **********************************       GUI  END       *******************************         -->
+
+<!--  **********************************     FOOTER START         *******************************         -->
+ <div class ="social">
+  <section class="container text-center">
+      <ul>
+          <li>
+          <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+          </li>
+
+          <li>
+            <a href="#"> <img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>
+          </li>
+
+          <li>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+          </li>
+      </ul>
+  </section>
+</div> 
+</body>
+</html> 
+<!--  **********************************  FOOTER ENDS         *******************************         -->
